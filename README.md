@@ -1,4 +1,4 @@
-## 🪐NAV-BOOT
+## 🪐 NAV-BOOT
 
 v 0.0.1
 
