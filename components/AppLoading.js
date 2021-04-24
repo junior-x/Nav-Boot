@@ -1,0 +1,2 @@
+import { AppLoading } from "expo";
+
