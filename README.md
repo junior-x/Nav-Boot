@@ -4,7 +4,7 @@ v 0.0.1
 
 ...
 
-![Image of Screen](/assets/image/screen-v1.png)
+![Image of Screen](/assets/image/screen-v1.PNG)
 
 ------
 
