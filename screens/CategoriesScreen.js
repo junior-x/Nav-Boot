@@ -3,8 +3,6 @@ import { View, Text, Button, StyleSheet } from "react-native";
 
 const  CategoriesScreen = props => {
 
-    console.log(props);
-
     return(
         <View>
             <Text style={styles.screen}>

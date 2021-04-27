@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Text, View } from 'react-native';
 import * as Font from 'expo-font';
-import AppLoading from "expo-app-loading";
+import { AppLoading } from 'expo';
+
 import MealsNavigator from './navigation/MealsNavigator';
 
 const fetchFonts = () => {
@@ -12,7 +13,6 @@ const fetchFonts = () => {
 };
 
 export default function App() {
-  
   const [fontLoaded, setFontLoaded] = useState(false);
 
   if (!fontLoaded) {
@@ -20,12 +20,9 @@ export default function App() {
       <AppLoading
         startAsync={fetchFonts}
         onFinish={() => setFontLoaded(true)}
-        onError={(err) => console.log(err)}
       />
     );
   }
 
-  return (
-    <MealsNavigator/>
-  );
+  return <MealsNavigator />;
 }
