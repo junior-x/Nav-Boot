@@ -1,8 +1,8 @@
 ## 🪐 NAV-BOOT
 
-v 0.0.1
+`v 0.0.1`
 
-...
+*Just the bases for the blocks and assets.*
 
 ![Image of Screen](/assets/image/screen-v1.PNG)
 
